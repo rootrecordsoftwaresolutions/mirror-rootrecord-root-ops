@@ -5,7 +5,7 @@ RootMC operations ï¿½ admin, restart, announcer, mapper (BlueMap-R2-Fix is a 
 | Field | Value |
 |-------|-------|
 | **Folder / artifact** | `root-ops` |
-| **Version** | `1.7.3` |
+| **Version** | `1.7.4` |
 | **Bukkit name** | `Root-Ops` |
 | **Paper API** | `26.1` |
 | **Author** | Root Record |
@@ -22,7 +22,7 @@ When the BuiltByBit product is live, this section will link directly to the paid
 
 ## Install
 
-1. Purchase / download `root-ops-1.7.3.jar` from BuiltByBit (coming soon) or your licensed RootMC distribution channel.
+1. Purchase / download `root-ops-1.7.4.jar` from BuiltByBit (coming soon) or your licensed RootMC distribution channel.
 2. Install **[Root-Core](https://github.com/RootRecord/root-core)** first when required (license/cloud spine for the suite).
 3. Remove any older `root-ops-*.jar` from `plugins/`.
 4. Drop the new jar into `plugins/` and restart (or use Root-Core suite updater when this plugin is on your licensed manifest).

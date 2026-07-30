@@ -43,7 +43,7 @@ public record RestartConfig(
                 zone,
                 cfg.getBoolean("discord.relay", true),
                 cfg.getBoolean("discord.startup-notify", true),
-                cfg.getString("messages.prefix", "&c[Restart] &r"),
+                cfg.getString("messages.prefix", ""),
                 cfg.getString("messages.countdown", "&eServer restarting in &f{time}&e."),
                 cfg.getString("messages.daily-countdown", "&eDaily restart in &f{time}&e."),
                 cfg.getString("messages.started-manual", "&7Manual restart started by &f{player}&7."),

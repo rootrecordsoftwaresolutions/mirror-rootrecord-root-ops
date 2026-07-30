@@ -16,7 +16,7 @@ discord:
   startup-notify: true
 
 messages:
-  prefix: '&c[Restart] &r'
+  prefix: ""
   countdown: '&eServer restarting in &f{time}&e.'
   daily-countdown: '&eDaily restart in &f{time}&e.'
   started-manual: '&7Manual restart started by &f{player}&7.'

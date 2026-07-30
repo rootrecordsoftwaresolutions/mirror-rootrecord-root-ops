@@ -25,7 +25,7 @@ public record MapperConfig(
 
     public static MapperConfig from(FileConfiguration cfg) {
         return new MapperConfig(
-                cfg.getString("prefix", "&6[Mapper] &7"),
+                cfg.getString("prefix", ""),
                 cfg.getInt("expand_max_dist", 12),
                 msg(cfg, "messages.started", "Mapping &f{area}&7 — use the mapper diamond."),
                 msg(cfg, "messages.refine_started", "Refining &f{area}&7."),
